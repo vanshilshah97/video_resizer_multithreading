@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/VideoEditor.h
+stdio.h
+-
+opencv2/opencv.hpp
+-
+opencv2/videoio.hpp
+-
+chrono
+-
+vector
+-
+mutex
+-
+condition_variable
+-
+future
+-
+memory
+-
+
+/root/takehome/main.cpp
+VideoEditor.h
+/root/takehome/VideoEditor.h
+thread
+-
+cmath
+-
+
+/root/takehome/src/VideoEditor.cpp
+VideoEditor.h
+/root/takehome/src/VideoEditor.h
+

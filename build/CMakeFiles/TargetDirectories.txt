@@ -1,0 +1,3 @@
+/root/takehome/build/CMakeFiles/rebuild_cache.dir
+/root/takehome/build/CMakeFiles/takehome.dir
+/root/takehome/build/CMakeFiles/edit_cache.dir
